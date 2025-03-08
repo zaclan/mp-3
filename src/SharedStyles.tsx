@@ -31,7 +31,7 @@ export const StyledSubTitle = styled.h3`
 export const StyledContent = styled.div`
     display: flex;
     width: 100%;
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 750px) {
         flex-direction: column;
     }
 `;
