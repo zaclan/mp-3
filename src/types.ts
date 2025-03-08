@@ -11,3 +11,9 @@ export type BulletPointProp = {
     subtitle?: string;
     content?: string; 
 }
+
+export type TableProp = {
+    header: string; 
+    row: string; 
+    cell: string; 
+}

@@ -4,6 +4,14 @@ export const StyledHeader = styled.header`
     background-color: #a2b2b8;
     padding: 1% 2%;
     justify-content: center;
+
+    @media screen and (max-width: 750px) {
+        justify-content: center;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 
 export const StyledName = styled.h1`
@@ -18,8 +26,8 @@ export const StyledDesc = styled.p`
 export default function Header() {
     return (
         <StyledHeader>
-            <StyledName>Zac Lan</StyledName>
-            <StyledDesc id="title-desc">My Online Resume</StyledDesc>
+                <StyledName>Zac Lan</StyledName>
+                <StyledDesc id="title-desc">My Online Resume</StyledDesc>
         </StyledHeader>
     )
 }

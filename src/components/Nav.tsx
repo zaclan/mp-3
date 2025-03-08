@@ -5,7 +5,6 @@ const StyledNav = styled.nav`
     display: flex; 
     width: 30%; 
     background-color: #101010;
-    padding: 1% 0;
   
     @media (max-width: 750px) {
         width: 100%;
